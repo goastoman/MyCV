@@ -39,13 +39,13 @@ function startApp() {
   // while (currentTime + 2000 >= new Date().getTime()) {}
 
   var address = {
-    "0" : "0xF8d976cB3c34bDB56590B53132C830837f4a70F6" // Ropsten
+    "3" : "0xF8d976cB3c34bDB56590B53132C830837f4a70F6" // Ropsten
   }
 
   // var current_network = web3.version.network;
   // var contract = web3.eth.contract(abi).at(address[current_network]);
 
-  var contract = web3.eth.contract(abi).at(address["0"]);
+  var contract = web3.eth.contract(abi).at(address["3"]);
   console.log("Contract initialized successfully")
 
   // Get basic data
