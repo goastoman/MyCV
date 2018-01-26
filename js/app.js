@@ -41,7 +41,7 @@ function startApp() {
   // while (currentTime + 2000 >= new Date().getTime()) {}
 
   var address = {
-    "3" : "0xcfc13ef85d5c37c0b54da991289f44450c3f30d6" // Ropsten
+    "3" : "0x2e87f51Bf2A360e840BC8E662536b3c83Cf62C58" // Ropsten
   }
 
   // var current_network = web3.version.network;
@@ -51,7 +51,7 @@ function startApp() {
   console.log("Contract initialized successfully")
 
   // Get basic data
-  var basic_items = ["name", "address", "email", "tel", "github", "stackexchange"];
+  var basic_items = ["name", "address", "email", "tel", "github"];
   basic_items.map(function(item) {
     contract.getBasicData(item, function(error, data) {
       console.log(item, data);
