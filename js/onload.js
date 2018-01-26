@@ -11,7 +11,8 @@ window.addEventListener('load', function() {
   } else {
     swal({
       title : 'Oops...',
-      html :  '<p align="left">This web page was build with <a href="https://www.ethereum.org/" target="_blank">Ethereum platform</a> and at seems like your browser doesn\'t support it yet!</p>' +
+      html :  '<h4>Oops...</h4>' +
+              '<p align="left">This web page was build with <a href="https://www.ethereum.org/" target="_blank">Ethereum platform</a> and at seems like your browser doesn\'t support it yet!</p>' +
               '<p align="left">If you still want to use this page, please, make sure that:</p>' +
               '<ul align="left">' +
               '<li>You\'re using <a href="https://www.google.com/chrome/" target="_blank">Chrome browser</a></li>' +

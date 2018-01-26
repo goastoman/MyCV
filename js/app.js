@@ -1,4 +1,6 @@
-
+// ==========================
+// ===== Draw skills ========
+// ==========================
 google.charts.load('current', {packages: ['corechart', 'bar']});
 
 function drawSkills() {
