@@ -41,7 +41,7 @@ function startApp() {
   // while (currentTime + 2000 >= new Date().getTime()) {}
 
   var address = {
-    "3" : "0x2e87f51Bf2A360e840BC8E662536b3c83Cf62C58" // Ropsten
+    "3" : "0x13c22bad2cb9095d2eda0721a7990c74713f3dc7" // Ropsten
   }
 
   // var current_network = web3.version.network;
